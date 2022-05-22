@@ -1,0 +1,847 @@
+            
+.cheter-cok {
+    position: relative;    
+    top:1rem;
+    width:100%;
+    margin:0 5px;
+    
+    
+}
+.cheter-row {
+    
+    position: relative;    
+    top:2rem;
+    width:100%;
+    margin:0 5px
+    
+    
+}
+.cheter-mek {
+    position: relative;    
+    top:3rem;
+    width:100%;
+    margin:0 5px;   
+    
+}
+.cheter-kolom {
+    width:33%;
+    float:left;
+    padding:0 16px;
+}
+.cheter-card {
+    border:solid;
+    border-radius:10px;
+    background-color:white;
+    padding:16px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.4);
+}
+.cheter-card:hover{
+    background-color:#00ffff;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.4);
+}
+@media screen and (max-width:600px;){
+    .cheter-kolom{
+        width:100%;
+        display:block;
+        margin-bottom:20px;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+
+
+
+.btn{
+    position: relative;
+    top:10px;
+    left:-1px;
+     text-align:center ;
+    background-color: #66CDAA;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: rgb(45, 35, 66, .4) 0 2px 4px ,
+    rgb(45, 35, 66, .3) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+    cursor: pointer;
+    color: #36295a;
+    height: 38px;
+    padding-left:10px;
+    padding-right:10px;
+    transition: .2s;
+    font-size: 16px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.btn:focus{
+    text-align:center ;
+    box-shadow: #d6d6e7 0 0 0 1.5px inset,
+    rgb(45, 35, 66, .4) 0 2px 4px,
+    rgb(45, 35, 66, .3) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+}
+
+.btn:hover{
+ text-align:center ;
+    box-shadow: rgb(45, 35, 66, .4) 0 4px 8px ,
+    rgb(45, 35, 66, .3) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.btn:active{
+ text-align:center ;
+    box-shadow: #d6d6e7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+.momok img{
+    width:auto;
+    height:51px;
+}
+.momok {     
+     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #136a62;
+    z-index: 3;
+}
+.chetermek {
+    background: #44c4af;
+    color: #017575;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    border-top: 2px solid #128b8b;
+}
+.Cheaterfooter {
+  background: #043e3a;
+  width: 30%;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%)
+}
+itemcheaterfoot {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-size: 19px;
+  margin-left: 20px
+}
+
+.itemcheaterfoot img {
+  width: 40px;
+  height: 40px
+}
+
+.cheaterfooterkanan {
+  margin-right: 15px
+}
+.bannercheater {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center
+}
+
+.w3-display-container {
+    position: relative;    
+    top:1rem;
+  width: 300px;
+  max-width: 380px
+}
+
+.w3-display-container img {
+  width: 100%;
+  display: none;
+  border-radius: 10px;
+  border: 3px solid #309e98
+}
+
+.w3-display-bottommiddle {
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  top: 200px
+}
+
+.w3-display-bottommiddle span {
+  height: 13px;
+  width: 13px;
+  background: 0 0;
+  border: 1px solid #8fd5d5;
+  border-radius: 50%;
+  margin: 0 10px
+}
+
+.w3-white {
+  background: #8fd5d5 !important
+}
+
+.arrowbannercheater {
+  position: absolute;
+  top: 140px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between
+}
+
+.itemcheaterarrow {
+  height: 30px;
+  width: 30px;
+  background: #44c4af
+}
+
+.kiriarrow {
+  clip-path: polygon(100% 0, 20% 50%, 100% 100%);
+  margin-left: 10px
+}
+
+.kananarrow {
+  clip-path: polygon(0 0, 0 100%, 80% 50%);
+  margin-right: 6px
+}
+
+.kiriarrow:hover {
+  background: #128b8b
+}
+
+.kananarrow:hover {
+  background: #128b8b
+}
+.scroll{
+position:absolute;
+  left:-1px;
+  top:18.8rem;
+  width: 100%;
+  background: transparans;
+  padding-left: auto;
+  overflow: scroll;
+  height: 580px;
+  
+  
+
+}
+.trueid-overlay{
+    position:fixed;
+    left:0;
+    top:0;
+    overflow-y:auto;
+    overflow-x:hidden;
+    background-color: rgba(0,0,0,0.5);
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+    z-index:4;
+    width:100vw;
+    height:100vh;
+    user-select:none;
+}
+.trueid-container{
+    border:2px solid;
+    background-color:#66ffff;
+    width:330px;
+    height:33vh;
+    text-alight:center;
+    position:absolute;
+    left:50%;
+    top:20%;
+    transform:translate(-50%);
+    -webkit-transition:translate(-50%);
+    -moz-transition:translate(-50%);
+    -ms-transition:translate(-50%);
+    -o-transition:translate(-50%);
+    border-radius:10px;
+    -webkit-transition:10px;
+    -moz-transition:10px;
+    -ms-transition:10px;
+    -o-transition:10px  
+}
+.trueid-container button{
+    background-color:#FFD700;
+    border:transparent;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    padding:15px;
+    color:#fff;
+    margin-top:30px;
+    width:25%;
+    font-size:90%;
+    cursor:pointer;
+    
+}
+.cek-container{
+    background-color:#fdfdfd;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%
+    -o-border-radius:50%;
+     color:green;
+     opacity:0.6;
+     font-size:250%;
+     margin:50px;
+     padding:10px;
+     box-shadow: 0 0 10px #000;    
+}
+.info{
+    text-alight:center;
+    font-family:sans-serif;
+    font-size:50%;
+}
+.inputid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px
+}
+
+.inputid input {
+  background: #2ea5a5;
+  font-size: 17px;
+  padding: 0 10px;
+  width: 175px;
+  line-height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  outline: 0
+}
+
+.CheaterID {
+  background: #0000005e;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2
+}
+
+.cheaterboxtrueid {
+  position:relative;
+  top:-5rem;
+  left:0;
+  margin: 61% auto;
+  background: url(https://static.neptunegame.com/images/website/pup_recharge.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 30px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap
+}
+
+.cheaterucapantrueid {
+  text-align: center;
+  color: #d2d17c;
+  font-size: 18px
+}
+
+.cheaterinputidhdi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px
+}
+
+.cheaterinputidhdi input {
+  background: #2ea5a5;
+  font-size: 17px;
+  padding: 0 10px;
+  width: 175px;
+  line-height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  outline: 0
+}
+
+.cheateralert {
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.cheateralert span {
+  color: #fe662a;
+  display: none
+}
+
+.buttonCheaterid {
+  text-align: center
+}
+
+.buttonCheaterid button {
+  background-color: #fbe751;
+  background-image: linear-gradient(180deg, #fbe751 0, #e29600 100%);
+  color: #974d06;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 30px;
+  padding: 0 20px;
+  border-radius: 9px 9px 9px 9px;
+  box-shadow: 1px 1px 1px 0 #000;
+  outline: 0
+}
+.harga{
+    position:relative ;
+    top:-30px;
+    left:0;
+    width:48px;
+    height:30px;
+    padding:1px;
+    font-size:20px;
+    color:green;
+}
+.chooselogincheater {
+  background: #0000005e;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2
+}
+
+.cheaterboxlogin {
+  margin: 61% auto;
+  background: url(https://static.neptunegame.com/images/website/pup_recharge.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: center
+}
+
+.cheaterucpanlogin {
+  text-align: center;
+  color: #d2d17c;
+  font-size: 18px
+}
+
+.cheaterpilihanlogin {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px
+}
+
+.cheaterpilihanlogin img {
+  height: 50px;
+  margin-bottom: 5px
+}
+
+.cheaterbuttoncloselogin {
+  margin-top: 15px
+}
+
+.cheaterbuttoncloselogin button {
+  color: #0d6300;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 35px;
+  padding: 0 25px;
+  border-radius: 9px 9px 9px 9px;
+  outline: 0;
+  background-color: #dbf670;
+  background-image: linear-gradient(180deg, #dbf670 0, #77b30a 100%);
+  box-shadow: inset 0 -3px 6px 0 #dbf670
+}
+.cheater-popup {
+        display: none;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999999;
+    }
+    .close-cheater-facebook {
+        background: #000;
+         width: 20px;
+        height: 20px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        border: 1.5px solid #fff;
+        position: absolute;
+        top: -8px;
+        right: -10px;
+        display: block;
+    }
+    .close-cheater-facebook i {
+        color: #fff;
+        padding-top: 1px;
+    }
+    .container-box-fb {
+        background: #ECEFF6;
+        max-width: 330px;
+        height: auto;
+        position: relative;
+        margin: 50px auto;
+        margin-top: 1.9%;
+        text-align: center;
+        font-family: system-ui;
+        color: #000;
+        border-radius: 10px;
+    }
+    .bagian-atas-fb {
+        background: #3b5998;
+	    width: 20rem;
+	    height: auto;
+	    padding: 8px;
+	    border-top-left-radius: 10px;
+	    border-top-right-radius: 10px;
+    }
+    .bagian-atas-fb img {
+        width: 115px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .bagian-isi-facebook {
+        width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .bagian-isi-facebook .kaget {
+        display: none;
+        left: -15px;
+        position: relative;
+        width: 330px;
+        padding: 5px;
+        background: red;
+        color:#fff;
+        font-size: 13px;
+        font-family: system-ui;
+    }
+    .bagian-isi-facebook img {
+        width: 60px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 12px;
+        display: block;
+    }
+    .bagian-txt-ucapan-fb {
+        width: 270px;
+        height: auto;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 17px;
+        padding: 8px;
+        color: #90949c;
+        font-size: 16px;
+        font-family: system-ui;
+        text-align: center;
+        display: block;
+    }
+    .bagian-form-login-fb input[type="text"],.bagian-form-login-fb input[type="password"]{
+        width: 100%;
+	    height: auto;
+	    padding: 12px;
+	    color: #000;
+	    font-size: 14px;
+	    font-weight: 400;
+	    font-family: 'Lato',sans-serif;
+	    border: 1px solid #bdbebf;
+	    cursor: pointer;
+	    outline: none;
+    }
+    .bagian-form-login-fb input[type="text"] {
+        margin: 0;
+        padding-bottom: 13px;
+	    border-bottom: none;
+	    border-radius: 4px 4px 0 0;
+	    box-shadow: 0 -1px 0 #E0E0E0 inset,0 0px 0px rgba(0,0,0,0.23) inset;
+    }
+    .bagian-form-login-fb input[type="password"] {
+        margin: 0;
+	    border-top: none;
+	    border-radius: 0 0 4px 4px;
+	    box-shadow: 0 -0px 0 rgba(0,0,0,0.23) inset,0 0px 0px rgba(255,255,255,0.1);
+    }
+    .button-login-fb {
+        background: #1778f2;
+	    width: 100%;
+	    height: auto;
+	    margin-top: 10px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding: 10px;
+	    color: #fff;
+	    font-size: 14px;
+	    font-family: system-ui;
+	    font-weight: bold;
+	    text-align: center;
+	    text-shadow: 1px 0px rgba(0, 0, 0, 0.3);
+	    border: 1px solid #3578e5;
+	    border-radius: 5px;
+	    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+	    outline: none;
+	    display: block;
+    }
+    .bagian-txt-buat-akun {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        color: #3b5998;
+        font-size: 13.5px;
+        font-family: system-ui;
+        text-align: center;
+    }
+    .bagian-txt-tidak-sekarang {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        color: #3b5998;
+        font-size: 13.5px;
+        font-family: Roboto;
+        text-align: center;
+    }
+    .bagian-txt-lupa-password {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        padding: 5px;
+        color: #7596c8;
+        font-size: 13.5px;
+        font-family: system-ui;
+        text-align: center;
+    }
+    .bagian-isi-bahasa {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .bagian-nama-bahasa {
+        width: 40%;
+        height: auto;
+        margin: 5px;
+        margin-bottom: 0px;
+        color: #3b5998;
+        font-size: 12px;
+        font-family: system-ui;
+        text-align: center;
+        display: inline-block;
+    }
+    .bagian-nama-bahasa i {
+        width: 23px;
+        padding: 4px;
+        color: #90949c;
+        border: 1px solid #3b5998;
+        border-radius: 3px;
+    }
+    .isi-bahasa-aktif {
+        color: #90949c;
+        font-weight: bold;
+    }
+    .cheater-project {
+        width: 40%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #90949c;
+        font-size: 12px;
+        font-family: system-ui;
+        text-align: center;
+        display: block;
+    }
+    .contpengunjungcheater {
+  margin: 50% auto;
+  background: url(https://cdn.jsdelivr.net/gh/AlexHostX/hdi@main/1632694685707.png) no-repeat center;
+  background-size: 100%;
+  padding: 40px;
+  width: 90%
+}
+
+.cheaterformpengunjung {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 70px
+}
+
+.cheaterformpengunjung input {
+  font-size: 19px;
+  line-height: 35px;
+  background: #54231a;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: #ffd479;
+  outline: 0
+}
+
+.cheaterformpengunjung input::-webkit-input-placeholder {
+  color: #e1b57d
+}
+
+.cheaterformpengunjung input::-moz-placeholder {
+  color: #e1b57d
+}
+
+.cheaterformpengunjung input:-ms-input-placeholder {
+  color: #e1b57d
+}
+
+.cheaterformpengunjung input:-moz-placeholder {
+  color: #e1b57d
+}
+
+.cheaterformpengunjung button {
+  background: url(https://sdomino.boxiangyx.com/images/website/webShop/exchange_ok.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 96px;
+  height: 32px;
+  border: none;
+  margin-bottom: 23px
+}
+
+.closepengunjungcheater {
+  position: absolute;
+  right: 26px;
+  top: 38.3%
+}
+
+.closinnih {
+  width: 43px;
+  height: 43px
+}
+
+.alertpg {
+  font-size: 11px;
+  color: #e1b57d;
+  display: none
+}
+
+.buttonverifhdi {
+  text-align: center
+}
+
+.buttonverifhdi button {
+  background-color: #67a309;
+  background-image: linear-gradient(0deg, #67a309 0, #c7ee4c 100%);
+  color: #268707;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 1px 0 #1a5806;
+  outline: 0;
+  padding: 4px 30px
+}
+	.cheaterVerif {
+  display: flex;
+  height:30px;
+  width:100%;
+  margin-bottom: 10px
+}
+
+.cheaterVerif label {
+  background: #ffbc68;
+  color: #814545;
+  padding:8px;
+  width:25%;
+  border-radius: 9px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.cheaterVerif select {
+  width: 75%;
+  margin-left: 10px;
+  background: #d5b184;
+  color: #835121;
+  border: none;
+  padding: 10px 10px;
+  font-size: 11px;
+  border-radius: 5px;
+  outline: 0
+}
+
+.cheaterVerif input {
+  width: 75%;
+  margin-left: 10px;
+  background: #d5b184;
+  color: #835121;
+  border: none;
+  padding: 10px 10px;
+  font-size: 11px;
+  border-radius: 5px;
+  outline: 0
+}
+.inputList {
+	position:relative;
+	margin-bottom:.12rem
+}
+.inputList.wrap {
+	width:16rem;
+	margin:0 auto .12rem
+}
+.inputList.wrap label {
+	display:block;
+	text-align:left
+}
+.inputList.wrap .inputLong {
+	width:3.5rem
+}
+.inputList .loginTxtBtn {
+	position:absolute;
+	top:.2rem;
+	right:.1rem;
+	font-size:.26rem;
+	color:#26b7b2;
+	text-decoration:underline;
+	cursor: pointer
+}
+
